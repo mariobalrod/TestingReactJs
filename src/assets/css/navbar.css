@@ -1,0 +1,15 @@
+.navBarDiv {
+    padding: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.644);
+    width: 100%;
+}
+
+.navBarDiv a {
+    color: white;
+    margin-right: 25px;
+    font-size: 17px;
+}
+
+.navBarDiv a:hover {
+    color: rgba(194, 187, 180, 0.603);
+}

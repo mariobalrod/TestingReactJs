@@ -1,0 +1,12 @@
+.buscadorContainer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.buscadorContainer div {
+    width: 450px;
+}
