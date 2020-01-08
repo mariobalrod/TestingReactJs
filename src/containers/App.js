@@ -23,7 +23,6 @@ class App extends Component {
     fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${this.state.searchTerm}`)
     .then(data => data.json())
     .then(data => {
-      console.log(data);
       this.setState({ movies: [...data.results]})
     })
   }
